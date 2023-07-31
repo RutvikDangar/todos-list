@@ -1,4 +1,6 @@
-.App {
+
+.abc {
+  color: white;
   text-align: center;
 }
 
@@ -36,3 +38,31 @@
     transform: rotate(360deg);
   }
 }
+
+.navvbar{
+ background-color: #eaf6f6;
+
+ padding: 2%;
+}
+
+.logoname{
+  font-size: 1.5rem;
+  font-family:'Times New Roman', Times, serif;
+
+}
+.navvbar a{
+text-decoration: none;
+color: black;
+margin: 0% 3%;
+}
+
+footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.scrl::-webkit-scrollbar{
+  display: none;
+}
+
