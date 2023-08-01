@@ -43,13 +43,10 @@ function App() {
   }, [todoList]);
 
   return (
-  
     <>
       <Header title="TO-DO List" />
-
-                <AddTodo addTodo={addTodo} />
-                <Todos todoList={todoList} onDelete={onDelete} />
-
+      <AddTodo addTodo={addTodo} />
+      <Todos todoList={todoList} onDelete={onDelete} />
       <Footer />
     </>
   );
