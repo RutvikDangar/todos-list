@@ -5,8 +5,6 @@ export default function header(props) {
     <>
         <div className="navvbar shadow-sm p-4 mb-3 rounded">
             <a><span className="logoname">{props.title}</span></a>
-                <a >Home</a>
-                <a >About</a>
         </div>
     </>
   )
